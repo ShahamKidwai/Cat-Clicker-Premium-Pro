@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+#cat-img {
+    margin-right: 50px;
+	margin-bottom: 40px;
+}
+
+#clicks {
+    margin-left: 550px;
+}
+
+.Container {
+    display: -webkit-inline-box;
+}
+
+
+.catList {
+    margin-top: 40px;
+}
+
+.form-container {
+    display: -webkit-inline-box;
+}
+
+p.button {
+    margin-right: 30px;
+}
+
+button.admin {
+    margin-right: 30px;
+}
+
+button#adminb {
+    margin-right: 40px;
+}
+
+input#name_lab {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+input#pic_lab {
+    margin-left: 1px;
+    margin-bottom: 7px;
+	}
+	
+input#click_lab {
+    margin-left: 6px;
+}
+	
+</style>
+
+<title>Cat Clicker</title>
+</head>
+<body>
+<div class = "Container">
+<div id = "Cat">
+     <h2 id = "catName"></h2>
+     <div id = "clicks"></div>
+     <img id = "cat-img" src="" alt="Cat Click">
+</div>
+<div class = "catList">
+     <ul id = "cat-list"></ul>
+</div>
+</div>
+<br>
+<div class = "form-container">
+<button id = "adminb">Admin</button>
+<div id = "cat-form">
+<form id="details">
+        <label> Name  :   </label><input type = "text" id="name_lab"><br>
+        <label> Picture : </label><input type = "text" id="pic_lab"><br>
+        <label> Clicks  : </label><input type = "text" id="click_lab"><br>
+        <br>
+</form>
+       <button id = "cancel">Cancel</button>
+        <button id = "save">Save</button>
+</div>
+</div>
+ <script src="js/app2.js"></script>
+</body>
+</html>
